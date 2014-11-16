@@ -10,7 +10,7 @@
 	Hello world!  
 </h1>
 
-<div ng-controller="myNoteCtrl">
+<div ng-controller="userHomeCtrl">
 <h2>Hello {{username}} you are the {{counter}}</span></h2>
 
 <h2>My Note {{message.length}}</span></h2>
@@ -27,7 +27,7 @@
 </div>
 
 <script src="/demo/resources/js/myNoteApp.js"></script>
-<script src="/demo/resources/js/myNoteCtrl.js"></script>
+<script src="/demo/resources/js/userHomeCtrl.js"></script>
 
 </body>
 </html>
